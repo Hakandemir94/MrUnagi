@@ -16,3 +16,4 @@ Login Test Template
     When user enters credentials    ${username}    ${password}
     And user clicks the login button
     Then correct error message should appear    ${error_message}
+    And user closes the browser

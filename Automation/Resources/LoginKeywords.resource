@@ -52,3 +52,6 @@ correct error message should appear
     [Arguments]    ${error_message}
     ${actual_error_message}=    Get Text    css=h3[data-test='error']
     Should Be Equal As Strings    ${actual_error_message}    ${error_message}
+
+user closes the browser
+    Close Browser
