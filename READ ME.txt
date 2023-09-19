@@ -28,6 +28,8 @@ Automation\Test Scenarios\PositiveLoginTest.robot
 Automation\Test Scenarios\ProductSortTests.robot
 Automation\TestData\invalid_credentials.csv
 
+Please see the test results file: Automation\Test Result logs
+
 I used Python 3.10.4 and chromedriver v114
 The packages and versions I used are listed below:
 Package                         Version
