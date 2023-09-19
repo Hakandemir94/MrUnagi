@@ -6,10 +6,10 @@ describe('Login, Product Search, and Cart Tests', () => {
     // Login Test
     it('should log in with valid credentials', () => {
       cy.contains('Signup / Login').click()
-      cy.login('newuser@user.com', 'a')
+      cy.login('username@user.com', 'a')
       cy.contains('Features Items').should('be.visible')
     })
-  
+    
     // Product Search Test
     it('should search for a product', () => {
       cy.get('a[href="/products"]').contains('Products').click()
