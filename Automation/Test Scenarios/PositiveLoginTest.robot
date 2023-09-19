@@ -4,6 +4,7 @@ Suite Teardown    Close Browser
 
 *** Test Cases ***
 Successful Login Test
+    [Tags]    Login
     Given user is on the login page
     When user enters valid credentials
     And user clicks the login button

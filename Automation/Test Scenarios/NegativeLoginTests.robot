@@ -6,8 +6,9 @@ Test Template    Login Test Template
 
 *** Test Cases ***
 Invalid login tests     username    password    error_message 
-                        #In the above line, if the part after Invalid login tests is deleted, 
-                        # ...it gives an error but the code will work anyway.
+    [Documentation]     #In the above line, if the part after Invalid login tests is deleted, 
+                        # ...it gives an error but the code will work anyway.                        
+    [Tags]  Login
 *** Keywords ***
 Login Test Template
     [Arguments]    ${username}    ${password}    ${error_message}
