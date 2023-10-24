@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AutomationExercise Suite" guice-stage="DEVELOPMENT">
+  <test name="AutomationExercise Test" verbose="2">
+    <packages>
+      <package name="web_development.Java.AutomationExerciseTC.src.test.java.*"/>
+    </packages>
+  </test>
+</suite>
